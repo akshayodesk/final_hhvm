@@ -1,13 +1,16 @@
-Please use hhvm version latest 3.15 and necessary commands linke hphize 
-Currently tested on ubunt 64 bit machine 
-For compilign :
-hphpize 
-cmake -DCMAKE_CXX_FLAGS='-fpermissive'
-make
+Please use hhvm version latest 3.15 and necessary commands like "hphize"  <br />
+Currently tested on ubuntu 64 bit machine  <br />
+
+For compiling :  <br />
+hphpize  <br />
+cmake -DCMAKE_CXX_FLAGS='-fpermissive'  <br />
+make  <br />
+
+For installing:  <br />
+cp vaeql.so /etc/hhvm/  <br />
 
 
-
-Sampel /etc/hhvm/php.ini file that should have some additional entries apart from the default ones:
+Sample /etc/hhvm/php.ini  file (in repo) that should have some additional entries apart from the default ones:
 
 
 
