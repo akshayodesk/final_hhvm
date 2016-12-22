@@ -446,8 +446,7 @@ typedef ANTLR3_UINT32				ANTLR3_INTKEY;
 /// Default definition of ANTLR3_FREE. You can override this before including
 /// antlr3.h if you wish to use your own implementation.
 ///
-//#define	ANTLR3_FREE(ptr)		if(1){	fprintf(stdout,"antlr free memoery %s:%d \n",__FUNCTION__,__LINE__)	;		free    ((void *)(ptr));}
-#define	ANTLR3_FREE(ptr)				free    ((void *)(ptr))
+#define	ANTLR3_FREE(ptr)						free    ((void *)(ptr))
 #endif
 #ifndef ANTLR3_FREE_FUNC						
 /// Default definition of ANTLR3_FREE_FUNC						. You can override this before including
