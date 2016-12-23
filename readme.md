@@ -3,7 +3,7 @@ Currently tested on ubuntu 64 bit machine  <br />
 
 For compiling :  <br />
 hphpize  <br />
-cmake -DCMAKE_CXX_FLAGS='-fpermissive'  <br />
+cmake -DCMAKE_CXX_FLAGS='-fpermissive' . <br />
 make  <br />
 
 For installing:  <br />
